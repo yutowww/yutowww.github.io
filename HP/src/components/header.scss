@@ -1,0 +1,35 @@
+.bigmessage {
+	overflow: hidden;
+	user-select: none;
+}
+
+.bigmessage1 {
+	font-size: 100px;
+	font-family: YuMincho;
+	margin-top: 10%;
+	margin-left: 10%;
+	// margin: 0%;
+}
+
+.bigmessage2 {
+	font-size: 100px;
+	font-family: YuMincho;
+	// margin-top: 10%;
+	margin-left: 10%;
+	float: left;
+}
+
+.bigmessage3 {
+	font-size: 100px;
+	font-family: YuMincho;
+	// margin-top: 10%;
+	// margin-left: 10%;
+	float: left;
+}
+.gray {
+	filter: invert(50%) sepia(0%) saturate(11%) hue-rotate(143deg) brightness(101%) contrast(93%);
+}
+
+.nav-toggle {
+	user-select: none;
+}

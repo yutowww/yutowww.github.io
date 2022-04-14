@@ -1,0 +1,110 @@
+.title {
+	position: relative;
+  }
+  
+.title p {
+	position: absolute;
+	align-items: center;
+	top: 40%;
+	left: 41%;
+	font-size: 35px;
+	color: #ffffff;
+	font-family: Hiragino Maru Gothic ProN;
+	text-shadow: 2px 2px 2px dimgray;
+  }
+
+.interview {
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	max-width: 300px;
+}
+
+.interview p {
+	font-family: Hiragino Maru Gothic Pro;
+	font-size: 27px;
+	background-color: rgba(255, 0, 0, 0.664);
+	position: absolute;
+	margin-top: -5.5%;
+	margin-left: 2%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	padding-left: 7%;
+	padding-right: 4%;
+	color: #ffffff;
+	text-shadow: 2px 2px 2px dimgray;
+}
+
+.interview2 {
+	margin-top: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	max-width: 300px;
+}
+
+.interview2 p {
+	font-family: Hiragino Maru Gothic Pro;
+	font-size: 27px;
+	background-color: rgba(0, 89, 255, 0.664);
+	position: absolute;
+	margin-top: -5.5%;
+	margin-left: 2%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	padding-left: 7%;
+	padding-right: 4%;
+	color: #ffffff;
+	text-shadow: 2px 2px 2px dimgray;
+}
+
+.interview3 {
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	max-width: 300px;
+}
+
+.interview3 p {
+	font-family: Hiragino Maru Gothic Pro;
+	font-size: 27px;
+	background-color: rgba(0, 156, 60, 0.664);
+	position: absolute;
+	margin-top: -5.5%;
+	margin-left: 2%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	padding-left: 7%;
+	padding-right: 4%;
+	color: #ffffff;
+	text-shadow: 2px 2px 2px dimgray;
+}
+#interview {
+	width: 100%;
+}
+.rightside {
+	display: flex;
+	justify-content: flex-end;
+}
+span {
+	display: inline-block;
+}
+
+
+@media screen and (max-width:480px) {
+	.interview {
+		margin: 10% 5%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	.interview2 {
+		margin: 10% 5%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	.interview3 {
+		margin: 10% 5%;
+		margin-left: 10%;
+		margin-right: 10%;
+
+	}
+}
