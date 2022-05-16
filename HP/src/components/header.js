@@ -27,17 +27,17 @@ export default class Header extends React.Component {
                            items={["about", "services", "portfolio", "contact"]}
                            currentClassName="active" rootEl={"#mainNav"} offset={-75}>                  
                   <li className="nav-item">
-                    <Link className="js-scroll-trigger nav-link" to="/company_information/Home">企業情報</Link>
+                    <Link className="js-scroll-trigger nav-link" to="/company_information/Home">企業理念</Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="js-scroll-trigger nav-link" to="/recruitment/recruit">採用情報</Link>
+                    <Link className="js-scroll-trigger nav-link" to="/recruitment/recruit">会社案内</Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="js-scroll-trigger nav-link" to="/access/access">アクセス</Link>
+                    <Link className="js-scroll-trigger nav-link" to="/access/access">採用情報</Link>
                   </li>
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <Link className="js-scroll-trigger nav-link" to="/contact/Contact">お問い合わせ</Link>
-                  </li>
+                  </li> */}
                 </Scrollspy>
               </Nav>
             </Navbar.Collapse>

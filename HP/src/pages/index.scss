@@ -1,5 +1,60 @@
+.OrangeBox {
+	background-color: blue;
+	width: 33%;
+	height: 300px;
+	margin-left: 30%;
+	margin-right: 30%;
+	position: absolute;
+	z-index: 1;
+	margin-top: -5px;
+}
+
+.bigmessage1 {
+	font-size: 50px;
+	font-family: YuMincho;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+
 .text-image {
 	position: relative;
+}
+.leftright {
+	position: relative;
+	margin-top: -126px;
+}
+
+.arrow {
+	width: 50%;
+	height: 300px;
+}
+
+.digi {
+	width: 50%;
+	height: 300px;	
+}
+
+.stairs {
+	height: 100vh;
+	width: 100%;
+
+}
+
+.office {
+	width: 30%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.hands {
+	width: 30%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.buttonsUp {
+	margin-top: -100px;
 }
   
 .text-image p {
