@@ -55,8 +55,8 @@ export default class IndexPage extends React.Component {
                   <h1 className="bigmessage1 text-black">We do,</h1>
                   <h1 className="bigmessage1 text-black">We go.</h1>
                   <div className="text-center">
-                    <button type="button" className="btn-outline-primary blueline-button" href="#about" >
-                      <br className="entry" />　企業理念　 
+                    <button type="button" className="btn-outline-primary blueline-button" >
+                      <Link className="js-scroll-trigger nav-link" to="/company_information/Home">企業理念</Link>
                     </button>
                   </div>
                 </div>

@@ -1,15 +1,15 @@
 // タイトル
 .heading {
     position: relative;
+    z-index: 5;
     }
   
-  .heading p {
+  .heading h1 {
     position: absolute;
-    color: white;
     font-weight: bold;
     font-size: 2em;
-    font-family: sans-serif;
-    top: 65%;
+    font-family: YuMincho;;
+    top: 5%;
     left: 50%;
     -ms-transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
@@ -19,6 +19,44 @@
     width: 350px;
     text-align: center;
     }
+// .heading div {
+//   margin-top: -80%;
+//   position: relative;
+//   z-index: 1;
+// }
+
+.heading p {
+  position: absolute;
+    color: blue;
+    font-weight: bold;
+    font-size: 0.5em;
+    font-family: YuMincho;;
+    top: 9%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    width: 350px;
+    text-align: center;
+}
+
+.heading h3 {
+  position: absolute;
+  font-weight: bold;
+  font-size: 1em;
+  font-family: YuMincho;;
+  top: 20%;
+  left: 20%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  width: 350px;
+  text-align: center;
+}
 
 // ボタン
 .text-reset {
