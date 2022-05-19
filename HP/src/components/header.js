@@ -2,8 +2,8 @@ import React from "react"
 import Scrollspy from "react-scrollspy"
 import { Navbar, Nav } from "react-bootstrap"
 import Scroller from './scroller'
-import logo from '../images/force/logo-black.png'
 import { Link } from "gatsby"
+// import MailOutlineIcon from '@mui/icons-material/MailOutline';
 
 export default class Header extends React.Component {
   constructor(props) {
@@ -18,7 +18,11 @@ export default class Header extends React.Component {
                 collapseOnSelect={true}>
           <div className="container">
           <Link className="navbar-brand js-scroll-trigger" to="/">
-            <img className="gray" src={logo} alt="フォース株式会社" height={100}/>
+            {/* <img className="gray" src={logo} alt="フォース株式会社" height={100}/> */}
+            <h1>(株)MS総合<span>研</span>究所</h1>
+          </Link>
+          <Link className="navbar-brand js-scroll-trigger" to="/">
+            {/* <MailOutlineIcon></MailOutlineIcon> */}
           </Link>
             <Navbar.Toggle className="nav-toggle" aria-controls="navbarResponsive"/>
             <Navbar.Collapse id="navbarResponsive">
@@ -32,12 +36,12 @@ export default class Header extends React.Component {
                   <li className="nav-item">
                     <Link className="js-scroll-trigger nav-link" to="/recruitment/recruit">会社案内</Link>
                   </li>
-                  <li className="nav-item">
-                    <Link className="js-scroll-trigger nav-link" to="/access/access">採用情報</Link>
-                  </li>
                   {/* <li className="nav-item">
-                    <Link className="js-scroll-trigger nav-link" to="/contact/Contact">お問い合わせ</Link>
+                    <Link className="js-scroll-trigger nav-link" to="/access/access">採用情報</Link>
                   </li> */}
+                  <li className="nav-item">
+                    <Link className="js-scroll-trigger nav-link" to="/contact/Contact">お問い合わせ</Link>
+                  </li>
                 </Scrollspy>
               </Nav>
             </Navbar.Collapse>

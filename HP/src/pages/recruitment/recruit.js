@@ -10,11 +10,9 @@ const Recruit = () => {
 
     return (
         <Layout>
-                <div className="greet" >
-                    <img src={ Stairs } className="stairs" alt=""/>
-                        <div className="minister">
-                            <img src={ Minister } className="img-fluid" alt=""/>
-                        </div>
+                <div className="greet">
+                            <img src={ Minister } className="minister" alt=""/>
+                        
                         <div className="box">
                             <div className ="smalltitle">
                                 <p><span>■</span>代表挨拶</p>
@@ -27,8 +25,8 @@ const Recruit = () => {
                             </div>
                         </div>
                 </div>
-                <div className="heading">
-                    <img src={ Archi } className="stairs" alt="" />
+                <div className="mapping">
+                    {/* <img src={ Archi } className="stairs" alt="" /> */}
                     <h1>アクセス</h1>
                     <p>access</p>
                     <h3>〒101-0054<br />

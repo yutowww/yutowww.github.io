@@ -6,6 +6,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.10.1",
+    "@mui/icons-material": "^5.8.0",
     "bootstrap": "^4.6.0",
     "emailjs-com": "^2.6.4",
     "gatsby": "^2.13.51",

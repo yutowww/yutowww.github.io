@@ -11,23 +11,23 @@ const Footer = () => {
             <Row>
               <Col md={3} className="mt-5">
                 <Link to="/company_information/Home" className="footer1">
-                  企業情報
+                  企業理念
                 </Link>
               </Col>
               <Col md={3} className="mt-5">
                 <Link to="/recruitment/recruit" className="footer1">
-                  採用情報
+                  会社案内
                 </Link>
               </Col>
-              <Col md={3} className="mt-5">
+              {/* <Col md={3} className="mt-5">
                 <Link to="/employee_interview/EmployeeInterview" className="footer1">
                   社員インタビュー
                 </Link>
-              </Col>
+              </Col> */}
               <Col md={3} className="mt-5">
-                <Link to="/access/access" className="footer1">
+                {/* <Link to="/access/access" className="footer1">
                   アクセス
-                </Link>
+                </Link> */}
               </Col>
             </Row>
             <Row>
@@ -37,13 +37,13 @@ const Footer = () => {
                 </Link>
               </Col>
             </Row>
-            <Row>
+            {/* <Row>
               <Col md={{ span: 3, offset: 9 }}>
                 <Link to="/contact/PrivacyPolicy" className="footer1">
                   プライバシーポリシー
                 </Link>
               </Col>
-            </Row>
+            </Row> */}
           </Container>
           {/* <div className="footer-display1">  
           <div className="footer-display2">         
@@ -66,8 +66,11 @@ const Footer = () => {
             <Link to="/contact/PrivacyPolicy" className="footer3">プライバシーポリシー</Link>
           </div>
           </div> */}
-          <div className="text-center">
-            <Link to="/"><img src={logo} alt="フォース株式会社" height={100}/></Link>
+          <div className="logo">
+            <Link to="/">
+              {/* <img src={logo} alt="フォース株式会社" height={100}/> */}
+              <h1>(株)MS総合<span>研</span>究所</h1>
+            </Link>
           </div>
           <a href="#page-top"><button type="button" className="btn btn-dark pagetop-button" href="#page-top">PAGE TOP</button></a>
         </footer>
