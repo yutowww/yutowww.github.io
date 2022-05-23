@@ -7,7 +7,7 @@ import FormConclusion from "./FormConclusion"
 import { useForm } from 'react-hook-form'
 import { init, sendForm } from 'emailjs-com'
 //emailjsのユーザーIDを貼り付け
-init("user_UywqsHYGWUywnj1A1lwNk")
+init("neESKEfr75aiyy5j5")
 
 const Confirm = props => {
   const {values} = props
@@ -18,7 +18,7 @@ const Confirm = props => {
 
       const onSubmit = (data) => {
         //emailjsのテンプレートIDを貼り付け
-        sendForm('default_service', 'template_hqke4pv', '#contact-form')
+        sendForm('service_all8qb6', 'template_3c79c6u', '#contact-form')
           .then(function(response) {
             console.log('SUCCESS!', response.status, response.text);
           }, function(error) {

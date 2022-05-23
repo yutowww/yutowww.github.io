@@ -11,7 +11,9 @@
 }
 
 .footer-bg {
-	background-color: #405468;
+	background-color: skyblue;
+	// height: ;
+	padding-top: 30px;
 }
 
 .footer1 {
@@ -38,11 +40,52 @@
 	margin-right: 0%;
 }
 
+.logo {
+	width: 30%;
+	height: 150px;
+	margin-top: -150px;
+	border-right: 5px solid;
+	border-right-style: groove;
+	border-color: gainsboro;
+	margin-bottom: 30px;
+}
 .logo h1 {
 	font-family: YuMincho;
 	text-align: center;
+	font-size: x-large;
+	color: gainsboro;
+	padding: 10px;
+}
+.logo h2 {
+	font-family: YuMincho;
+	text-align: left;
+	margin-left: 10px;
+	font-size: large;
+	color: gainsboro;
+	padding: 10px;
 }
 .logo span {
 	font-family: YuMincho;
 	color: navy;
+}
+
+.rightBox {
+	position: relative;
+	width: 30%;
+	height: 150px;
+	margin-left: 65%;
+	padding: 10px;
+	border-left: 5px solid;
+	border-left-style: groove	;
+	border-color: gainsboro;
+}
+
+.copyright {
+	position: absolute;
+	text-align: center;
+	background-color: black;
+	color: antiquewhite;
+	width: 100%;
+	z-index: 3;
+	font-family: Yumincho;
 }

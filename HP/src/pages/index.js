@@ -65,19 +65,18 @@ export default class IndexPage extends React.Component {
               </div>
                 <img src={ Stairs } className="stairs" alt=""/>
               <div className="parent">
-                <div className="peripheryBox">
+                <Link className="peripheryBox" to="recruitment/recruit">
                   <img src={ Office } className="office" alt=""/>
                   <h3>Company</h3>
                   <p>会社案内</p>
-                </div>
-                <div className="peripheryBox">
+                </Link>
+                <Link className="peripheryBox" to="/company_information/Home">
                   <img src={ Hands } className="hands" alt=""/>
                   <h3>Recruit</h3>
                   <p>採用情報</p>
-                </div>
+                </Link>
               </div>
             </div>
-              
         </section>
          <PortfolioModal show={this.state.modalShow} onHide={() => this.setModal(false, 0)}>
            <PortfolioCarousel images={this.props.data.images.edges} current={this.state.modalCurrent}/>
