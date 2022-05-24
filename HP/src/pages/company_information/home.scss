@@ -96,3 +96,141 @@
 //     position: absolute;
 //     left: 15%;
 // }
+
+
+// .center {
+//     width: 120px;
+//     padding-top: 10%;
+//     color: aliceblue;
+//     margin: 0 auto;
+// }
+
+// .recPic {
+//     width: 100%;
+//     height: 150px;
+//     background: url(../../images/force/recruitment.png) top center / cover no-repeat;
+// }
+.greet {
+  width: 100%;
+  position: relative;
+  padding: 5%;
+  padding-top: 250px;
+  background: url(../../images/pic/stairs-LightGray.jpg);
+}
+
+.greet div {
+  position: relative;
+  z-index: 2;
+}
+
+.box {
+  // margin-bottom: 10%;
+  margin-top: -330px;
+  margin-left: 45%;
+  border: 0.5rem solid;
+  border-color: navy;
+  padding: 5%;
+  font-family: YuMincho;
+  z-index: 1;
+}
+
+.smalltitle {
+  font-family: YuMincho;
+  font-size: 25px;
+  // margin-top: -9%;
+  // margin-left: -11%;
+  width: 250px;
+  height: 40px;
+  margin-bottom: 5%;
+}   
+.smalltitle span:nth-child(1) {
+  color: navy;
+  font-family: YuMincho;
+}
+.spacer {
+  padding-bottom: 5%;
+  padding-left: 10%;
+}
+.textcenter {
+  text-align: center;
+  padding-top: 5%;
+  font-family: YuMincho;
+  font-size: 20px;
+}
+.sub_title {
+  font-size: x-large;
+}
+.sub_contentsR {
+  padding: 0 10%;
+  font-size: 20px;
+}
+
+.minister {
+  // z-index: 1;
+  // margin-top: -400px;
+  margin-left: 15%;
+  width: 30%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.mapping {
+  background: url(../../images/pic/architecture-LightGray.jpg);
+  padding: 5px;
+}
+
+.mapping h1 {
+  position: relative;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: YuMincho;;
+  left: 50%;
+  // top: 5%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin-top:5%;
+  padding:5;
+  width: 350px;
+  text-align: center;
+  }
+
+.mapping p {
+position: relative;
+  color: blue;
+  font-weight: bold;
+  font-size: 0.5em;
+  font-family: YuMincho;;
+  // top: 9%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  width: 350px;
+  text-align: center;
+}
+
+.mapping h3 {
+position: relative;
+font-weight: bold;
+font-size: 1em;
+font-family: YuMincho;;
+top: 20%;
+left: 20%;
+-ms-transform: translate(-50%,-50%);
+-webkit-transform: translate(-50%,-50%);
+transform: translate(-50%,-50%);
+margin-top:5%;
+padding:0;
+width: 350px;
+text-align: center;
+//   margin-bottom: 5px;
+}
+
+.map {
+  margin: 10%;
+  margin-top: 0%;
+  margin-bottom: 50px;
+}

@@ -10,10 +10,10 @@ import "./newGraduate.scss"
 const MidCareer = () => {
     return (
         <Layout>
-            <div>
-                <div className="heading">
-                    <img src={ recruitment } className="img-fluid" alt=""/>
-                    <p>中途採用</p>
+            <div className="newmapping">
+                <div className="newheader">
+                    <h1 className="newmappingh1">中途採用</h1>
+                    <p className="newmappingp">中途採用</p>
                 </div>
                 <div>
                     <h5 className="sTitle">中途採用について</h5>

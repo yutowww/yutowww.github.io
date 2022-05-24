@@ -2,10 +2,6 @@ import React from "react"
 import Form from "../contact/Form"
 import TableNG from "./tableNG"
 import Layout from "../../components/layout"
-import recruitment from "../../images/force/recruitment_fullsize.jpg"
-import mynavi from "../../images/force/mynavi.png"
-
-
 
 import "./newGraduate.scss"
 
@@ -15,14 +11,14 @@ const NewGraduate = () => {
 
     return (
       <Layout>
-        <div>
-            <div className="heading">
-                <img src={ recruitment } className="img-fluid" alt=""/>
-                <p>新卒採用</p>
+        <div className="newmapping">
+            <div className="newheader">
+                <h1 className="newmappingh1">新卒採用</h1>
+                <p className="newmappingp">Recruit</p>
             </div>
             <div>
                 <h5 className="sTitle">新卒採用について</h5>
-                <p className="center1">現在、2021年度の募集を行っております。</p>
+                <p className="center1">現在、2023年度の募集を行っております。</p>
             </div>
             <div>
                 <h5 className="sTitle">募集要項</h5>
@@ -32,11 +28,13 @@ const NewGraduate = () => {
                 <h5 className="sTitle">採用フロー</h5>
                 <div>
                     <h6 className="ssTitle">エントリー</h6>
-                    <p className="text">フォース株式会社にご興味をお持ち頂きました方は、お電話や応募フォームにて直接お問い合わせ下さい。下記、マイナビからも応募が可能です。</p>
+                    <p className="text">（株）MS総合研究所にご興味をお持ち頂きました方は、お電話や応募フォームにて直接お問い合わせ下さい。
+                    {/* 下記、マイナビからも応募が可能です。 */}
+                    </p>
                     <div className="text">
-                      <a href="https://job.mynavi.jp/21/pc/search/corp237340/outline.html">
+                      {/* <a href="https://job.mynavi.jp/21/pc/search/corp237340/outline.html">
                         <img src={ mynavi } width="200px" height="60px" alt=""/>
-                      </a>
+                      </a> */}
                     </div>
                 </div>
                 <div>

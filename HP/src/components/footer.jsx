@@ -16,7 +16,7 @@ const Footer = () => {
               </Col>
               <Col md={3}>
                 <Link to="/recruitment/recruit" className="footer1">
-                  会社案内
+                  採用情報
                 </Link>
               </Col>
               <Col md={3}>

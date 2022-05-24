@@ -1,44 +1,66 @@
-// .center {
-//     width: 120px;
-//     padding-top: 10%;
-//     color: aliceblue;
-//     margin: 0 auto;
-// }
 
-// .recPic {
-//     width: 100%;
-//     height: 150px;
-//     background: url(../../images/force/recruitment.png) top center / cover no-repeat;
-// }
-.greet {
+.greet2 {
     width: 100%;
     position: relative;
-    padding: 5%;
+    padding: 15%;
     padding-top: 250px;
     background: url(../../images/pic/stairs-LightGray.jpg);
 }
 
-.greet div {
+.recheader h1 {
+    position: relative;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: YuMincho;;
+    left: 50%;
+    // top: 5%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin-top:5%;
+    padding:5;
+    width: 350px;
+    text-align: center;
+    }
+
+    .recheader p {
+        position: relative;
+          color: blue;
+          font-weight: bold;
+          font-size: 0.5em;
+          font-family: YuMincho;;
+          // top: 9%;
+          left: 50%;
+          -ms-transform: translate(-50%,-50%);
+          -webkit-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+          margin:0;
+          padding:0;
+          width: 350px;
+          text-align: center;
+      }
+      
+
+.greet2 div {
     position: relative;
     z-index: 2;
 }
 
-.box {
-    // margin-bottom: 10%;
-    margin-top: -330px;
-    margin-left: 45%;
+.recbox {
+    position: relative;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
     border: 0.5rem solid;
     border-color: navy;
     padding: 5%;
     font-family: YuMincho;
-    z-index: 1;
+    // background-color: aqua;
 }
 
 .smalltitle {
     font-family: YuMincho;
     font-size: 25px;
-    // margin-top: -9%;
-    // margin-left: -11%;
     width: 250px;
     height: 40px;
     margin-bottom: 5%;
@@ -63,15 +85,6 @@
 .sub_contentsR {
     padding: 0 10%;
     font-size: 20px;
-}
-
-.minister {
-    // z-index: 1;
-    // margin-top: -400px;
-    margin-left: 15%;
-    width: 30%;
-    height: 300px;
-    overflow: hidden;
 }
 
 .mapping {

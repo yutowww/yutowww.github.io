@@ -56,7 +56,7 @@ export default class IndexPage extends React.Component {
                   <h1 className="bigmessage1 text-black">We go.</h1>
                   <div className="text-center">
                     <button type="button" className="btn-outline-primary blueline-button" >
-                      <Link className="js-scroll-trigger nav-link" to="/company_information/Home">企業理念</Link>
+                      <Link className="js-scroll-trigger nav-link" to="/recruitment/recruit">企業理念</Link>
                     </button>
                   </div>
                 </div>
@@ -65,12 +65,12 @@ export default class IndexPage extends React.Component {
               </div>
                 <img src={ Stairs } className="stairs" alt=""/>
               <div className="parent">
-                <Link className="peripheryBox" to="recruitment/recruit">
+                <Link className="peripheryBox" to="/recruitment/recruit">
                   <img src={ Office } className="office" alt=""/>
                   <h3>Company</h3>
                   <p>会社案内</p>
                 </Link>
-                <Link className="peripheryBox" to="/company_information/Home">
+                <Link className="peripheryBox" to="/recruitment/recruit">
                   <img src={ Hands } className="hands" alt=""/>
                   <h3>Recruit</h3>
                   <p>採用情報</p>
