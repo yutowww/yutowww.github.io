@@ -1,7 +1,7 @@
 // Base styling for the navbar
 #mainNav {
 	box-shadow: $box-shadow;
-	background-color: $white;
+	background-color: #1976D2;
 	transition: background-color 0.2s ease;
 	.navbar-brand {
 		font-family: $font-family-sans-serif;
@@ -18,7 +18,7 @@
 			}
 
 			.nav-link {
-				color: $gray-600;
+				color: #BBDEFB;
 				font-family: $font-family-sans-serif;
 				font-weight: $font-weight-bold;
 				font-size: 1.2rem;
@@ -36,18 +36,18 @@
 		box-shadow: none;
 		background-color: transparent;
 		.navbar-brand {
-			color: fade-out($white, .3);
+			color: fade-out(#1976D2, .3);
 			&:hover {
-				color: $white;
+				color: #1976D2;
 			}
 		}
 		.navbar-nav {
 			.nav-item {
 				.nav-link {
-					color: lightgray;
+					color: #BBDEFB;
 					padding: 0 2rem;
 					&:hover {
-						color: $white;
+						color: #1976D2;
 					}
 				}
 				&:last-child {
@@ -64,9 +64,9 @@
 	// Navbar styling applied when the page is scrolled
 	.site-container.navbar-scrolled #mainNav {
 		box-shadow: $box-shadow;
-		background-color: $white;
+		background-color: #1976D2;
 		.navbar-brand {
-			color: $gray-900;
+			color: #BBDEFB;
 			&:hover {
 				color: $primary;
 			}
@@ -74,7 +74,7 @@
 		.navbar-nav {
 			.nav-item {
 				.nav-link {
-					color: $gray-900;
+					color: #BBDEFB;
 					&:hover {
 						color: $primary;
 					}

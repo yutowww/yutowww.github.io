@@ -8,7 +8,7 @@ import Scroller from "../components/scroller"
 import PortfolioModal from "../components/portfolio/modal"
 import PortfolioCarousel from "../components/portfolio/carousel"
 import Arrows from "../images/pic/arrows-.jpg"
-import Digi from "../images/pic/digitization-DarkBlue.jpg"
+import Digi from "../images/pic/digitization-Darkblue.jpg"
 import Stairs from  "../images/pic/stairs-LightGray.jpg"
 import Archi from  "../images/pic/architecture-LightGray.jpg"
 import Office from  "../images/pic/office-.jpg"
@@ -64,7 +64,7 @@ export default class IndexPage extends React.Component {
                 <img src={ Digi } className="digi" alt=""/>
               </div>
                 <img src={ Stairs } className="stairs" alt=""/>
-              <div className="parent">
+              <div className="indexparent">
                 <Link className="peripheryBox" to="/recruitment/recruit">
                   <img src={ Office } className="office" alt=""/>
                   <h3>Company</h3>

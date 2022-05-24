@@ -1,5 +1,5 @@
 .OrangeBox {
-	background-color: blue;
+	background-color: #2196F3;
 	width: 33%;
 	height: 300px;
 	min-height: 400px;
@@ -55,6 +55,13 @@
 	max-height: 300px;
 }
 
+.indexparent {
+	background: url('../images/pic/architecture-LightGray.jpg');
+  	padding: 10%;
+  	margin-bottom: 0%;
+  	width: 100%;
+}
+
 .peripheryBox {
 	width: 30%;
 	height: 400px;
@@ -62,7 +69,7 @@
 	margin-left: 10%;
 	margin-right: 10%;
 	float: left;
-	background-color: blue;
+	background-color: #2196F3;
 }
 
 .peripheryBox h3 {
@@ -70,12 +77,12 @@
 	float: left;
 	margin: 20px;
 	margin-right: 50px;
-	color: gainsboro;
+	color: #FFFFFF;
 }
 .peripheryBox p {
 	font-family: YuMincho;
 	margin: 30px;
-	color: gainsboro;
+	color: #FFFFFF;
 
 }
   
@@ -149,7 +156,7 @@
 .recruit-button {
 	display: inline-block;
 	text-decoration: none;
-    // background: blue;
+    // background: #2196F3;
 	color: #FFF;
 	width: 300px;
 	height: 300px;
@@ -271,6 +278,7 @@
 .row.justify-content-center {
 	margin: 0;
 	width: 100%;
+	margin-bottom: 0%;
 }
 
 //スマホサイズ時のテキストコントロール
