@@ -11,7 +11,6 @@ const Recruit = () => {
         <Layout>
         <div className="greet2">
             <div className="recheader">
-               
                 <h1>採用情報</h1>
                 <p>Recruit</p>
                 </div>
