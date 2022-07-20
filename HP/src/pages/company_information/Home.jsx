@@ -15,13 +15,15 @@ const Home = () => {
                 
                 <div className="box">
                     <div className ="smalltitle">
-                        <p><span>■</span>代表挨拶</p>
+                        <p><span>■</span>MS総研の使命感</p>
                     </div>
-                    <div>
+                    {/* <div>
                         <p className="sub_title">１.チャレンジ精神</p>
-                    </div>
+                    </div> */}
                     <div className="sub_contentsR">
-                        <p>常に新しい技術が日進月歩のIT業界。<br />常に前向きにプラス思考で新しいことにチャレンジできる向上心のある方。</p>
+                        <p>"MS総合研究所はIT企業に関わる技術者の満足度を向上させることで<br />
+                            IT企業の業績を向上させることで社会に貢献する企業を目指すことを<br />
+                            使命と致します"</p>
                     </div>
                 </div>
         </div>

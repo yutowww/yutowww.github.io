@@ -51,9 +51,9 @@ export default class IndexPage extends React.Component {
             <div className="row justify-content-center">
               <div className="leftright">
                 <div className="OrangeBox">
-                  <h1 className="bigmessage1 text-black">We can,</h1>
-                  <h1 className="bigmessage1 text-black">We do,</h1>
-                  <h1 className="bigmessage1 text-black">We go.</h1>
+                  <h1 className="bigmessage1 text-black">採用・教育・営業の</h1>
+                  <h1 className="bigmessage1 text-black">コンサルティングで</h1>
+                  <h1 className="bigmessage1 text-black">企業の未来を変える</h1>
                   <div className="text-center">
                     <button type="button" className="btn-outline-primary blueline-button" >
                       <Link className="js-scroll-trigger nav-link" to="/recruitment/recruit">企業理念</Link>
@@ -64,17 +64,30 @@ export default class IndexPage extends React.Component {
                 <img src={ Digi } className="digi" alt=""/>
               </div>
                 <img src={ Stairs } className="stairs" alt=""/>
+                <div className="diamond">
+                  <div>
+                    <h1>事業紹介</h1>
+                    <h2>人材採用コンサルティング</h2>
+                    <p>・新卒採用、中途採用</p>
+                    <h2>人材教育コンサルティング</h2>
+                    <p>・ビジネスマナー研修、技術者研修、管理職研修</p>
+                    <h2>営業コンサルティング</h2>
+                    <p>・新規営業開拓、既存顧客の売拡大</p>
+                    <h2>キャリアコンサルティング</h2>
+                    <p>・従業員キャリアコンサル</p>
+                  </div>
+                </div>
               <div className="indexparent">
                 <Link className="peripheryBox" to="/recruitment/recruit">
                   <img src={ Office } className="office" alt=""/>
                   <h3>Company</h3>
                   <p>会社案内</p>
                 </Link>
-                <Link className="peripheryBox" to="/recruitment/recruit">
+                {/* <Link className="peripheryBox" to="/recruitment/recruit">
                   <img src={ Hands } className="hands" alt=""/>
                   <h3>Recruit</h3>
                   <p>採用情報</p>
-                </Link>
+                </Link> */}
               </div>
             </div>
         </section>

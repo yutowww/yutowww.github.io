@@ -14,28 +14,27 @@ const Footer = () => {
                   企業理念
                 </Link>
               </Col>
-              <Col md={3}>
+              {/* <Col md={3}>
                 <Link to="/recruitment/recruit" className="footer1">
                   採用情報
                 </Link>
-              </Col>
+              </Col> */}
               <Col md={3}>
-              </Col>
-            </Row>
-            <Row>
-              <Col md={{ span: 3, offset: 9 }}>
                 <Link to="/contact/Contact" className="footer1">
                   お問い合わせ
                 </Link>
               </Col>
             </Row>
+            <Row>
+              
+            </Row>
           </div>
           <div className="logo">
             <Link to="/">
-              <h1>(株)MS総合<span>研</span>究所</h1>
-              <h2>〒101-0054<br />
-                  東京都港区〜〜<br />
-                  〜〜ビルディング〜階
+              <h1>株式会社MS総合<span>研</span>究所</h1>
+              <h2>東京都渋谷区恵比寿東3丁目16番1号<br />
+                  ベルザ恵比寿ビル<br />
+                  代表取締役　坂井勇一
               </h2>
             </Link>
           </div>

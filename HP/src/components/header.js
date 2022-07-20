@@ -19,7 +19,7 @@ export default class Header extends React.Component {
           <div className="container">
           <Link className="navbar-brand js-scroll-trigger" to="/">
             {/* <img className="gray" src={logo} alt="フォース株式会社" height={100}/> */}
-            <h1>(株)MS総合<span>研</span>究所</h1>
+            <h1>株式会社MS総合<span>研</span>究所</h1>
           </Link>
           <Link className="navbar-brand js-scroll-trigger" to="/">
             {/* <MailOutlineIcon></MailOutlineIcon> */}
@@ -33,9 +33,9 @@ export default class Header extends React.Component {
                   <li className="nav-item">
                     <Link className="js-scroll-trigger nav-link" to="/company_information/Home">企業理念</Link>
                   </li>
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <Link className="js-scroll-trigger nav-link" to="/recruitment/recruit">採用情報</Link>
-                  </li>
+                  </li> */}
                   {/* <li className="nav-item">
                     <Link className="js-scroll-trigger nav-link" to="/access/access">採用情報</Link>
                   </li> */}

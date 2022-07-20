@@ -1,6 +1,6 @@
 .OrangeBox {
 	background-color: #2196F3;
-	width: 33%;
+	width: 40%;
 	height: 300px;
 	min-height: 400px;
 	margin-left: 30%;
@@ -11,14 +11,24 @@
 	padding: 10px;
 }
 
+// .OrangeBox h1 {
+// 	font-size: 30px;
+// 	font-family: YuMincho;
+// 	margin-top: 5%;
+// 	margin-left: 10%;
+// 	margin-right: 10%;
+// 	color: #8BC34A;
+// 	text-shadow: 2px 2px 2px #757575;
+// 	box-sizing: content-box;
+// }
 .bigmessage1 {
-	font-size: 50px;
+	font-size: 30px;
 	font-family: YuMincho;
-	margin-top: 5%;
-	margin-left: 10%;
-	margin-right: 10%;
+	text-align: center;
+	margin: 5%;
 	color: #8BC34A;
 	text-shadow: 2px 2px 2px #757575;
+	box-sizing: content-box;
 }
 
 
@@ -65,11 +75,11 @@
 }
 
 .peripheryBox {
-	width: 30%;
+	width: 70%;
 	height: 400px;
 	margin: 3%;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 15%;
+	margin-right: 15%;
 	float: left;
 	background-color: #2196F3;
 }
@@ -229,6 +239,32 @@
 // 	text-shadow: 2px 2px 2px dimgray;
 // }
 
+
+.diamond {
+	margin-top: -520px;
+	height: fit-content;
+	background-color: #BDBDBD;
+	color: #FFFFFF;
+	box-shadow: 3px 3px 6px -2px #555,
+	3px 3px 8px rgba(255,255,255,0.8) inset;	
+	transform: rotate3d(1,1,1,40deg);
+}
+
+.diamond h1 {
+	transform: rotate3d(1,1,1,-30deg);
+	margin-left: -20%;
+	font-family: Yumincho;
+}
+.diamond h2 {
+	transform: rotate3d(1,1,1,-30deg);
+	margin-left: -5%;
+	font-family: Yumincho;
+}
+.diamond p {
+	transform: rotate3d(1,1,1,-30deg);
+	margin-left: 5%;
+	font-family: Yumincho;
+}
 .contact-button {
 	// display: flex;
 	margin-top: 5%;
