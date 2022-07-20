@@ -217,16 +217,16 @@ position: relative;
 font-weight: bold;
 font-size: 1em;
 font-family: YuMincho;;
-top: 20%;
-left: 20%;
+// top: 20%;
+// left: 20%;
 -ms-transform: translate(-50%,-50%);
 -webkit-transform: translate(-50%,-50%);
 transform: translate(-50%,-50%);
 margin-top:5%;
+margin-left: 10%;
 padding:0;
 width: 350px;
-text-align: center;
-//   margin-bottom: 5px;
+text-align: left;
 }
 
 .map {

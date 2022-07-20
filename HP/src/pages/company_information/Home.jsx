@@ -31,9 +31,10 @@ const Home = () => {
             {/* <img src={ Archi } className="stairs" alt="" /> */}
             <h1>アクセス</h1>
             <p>access</p>
-            <h3>〒101-0054<br />
-                　　　　東京都　港区芝浦<br />
-                　　　　　　　〜〜ビルディング　７階
+            <h3>〒150-0011<br />
+            東京都渋谷区恵比寿東3丁目16番1号<br />
+                ベルザ恵比寿ビル<br />
+                代表取締役　坂井勇一
             </h3>
             <div className="map"><Mapping /></div>
         </div>

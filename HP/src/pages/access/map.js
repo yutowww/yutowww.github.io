@@ -5,7 +5,7 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 
 export default class Mapping extends Component {
   render() {
-    const position = [35.6930823, 139.7613345];
+    const position = [35.64982443478135, 139.71008459759418];
     return (
         <MapContainer center={position} zoom={16} scrollWheelZoom={false} style={{ height: '350px',margin:'5%'}}>
           <TileLayer
@@ -14,7 +14,10 @@ export default class Mapping extends Component {
           />
           <Marker position={position}>
             <Popup>
-              フォース株式会社 <br />〒101-0054<br /> 千代田区神田錦町三丁目18番地 寿ビル7階
+              株式会社MS総合研究所<br />
+              〒150-0011<br />
+              東京都渋谷区恵比寿東3丁目16番1号<br />
+              ベルザ恵比寿ビル
             </Popup>
           </Marker>
         </MapContainer>
