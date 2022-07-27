@@ -96,7 +96,7 @@ const Form = () => {
                         name="postalcode"
                         type="text"
                         className="form-control"
-                        placeholder="例：101-0054"
+                        placeholder="例：150-0011"
                         ref={register({
                             required: true,
                             pattern: {

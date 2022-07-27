@@ -23,8 +23,8 @@ const Contacts = () => {
                     </div>
                         <Form />
                     <div className="container mt-5 mb-5 bottom-contents">
-                        <p>お電話にてお問い合わせ頂く場合、株式会社MS総研【総合係】まで</p>
-                        <p className="h5">TEL 03-XXXX-XXXX</p>
+                        <p>お電話にてお問い合わせ頂く場合、株式会社MS総合研究所まで</p>
+                        <p className="h5">TEL 090-8373-5701</p>
                     </div>
                 </div>
             </div>
