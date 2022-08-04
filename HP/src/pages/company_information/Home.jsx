@@ -11,7 +11,7 @@ const Home = () => {
     return (
         <Layout>
         <div className="greet">
-                    <img src={ Minister } className="minister" alt=""/>
+                    {/* <img src={ Minister } className="minister" alt=""/> */}
                 
                 <div className="box">
                     <div className ="smalltitle">
